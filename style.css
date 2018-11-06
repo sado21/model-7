@@ -16,13 +16,13 @@ a:visited {
 
 body {
   background-color: #fff;
-  background: url("assignment-images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background: url("https://www3.hilton.com/resources/media/hi/MANDGHI/en_US/img/shared/full_page_image_gallery/main/HL_hotelexterior_675x359_FitToBoxSmallDimension_Center.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   font-family: sans-serif;}
 
 h1 {
-  background: #1e1b1e url("assignment-images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("https://icon2.kisspng.com/20180414/ctw/kisspng-hilton-hotels-resorts-hilton-worldwide-accommoda-gucci-logo-5ad1cff5659552.9225056815236997014161.jpg") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
