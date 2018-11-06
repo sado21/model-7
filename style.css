@@ -1,17 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+a {
+  font-size: 100%;
+}
+a:hover {
+  font-weight: bold;
+}
+a:link {
+  color: lightyellow;
+}
+a:visited {
+  color: limegreen;
+}
+/* JavaScript & jQuery - Chapter 3: Functions, Methods & Programming */
+/* The book used a font called Eau Sans - the download examples use Open Sans */
 
 body {
   background-color: #fff;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9fZ0bu3Si_Ds-ovWpsNs_iLRG6dERZ0cOWHnBlrXGz4SWkmUy") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("assignment-images/travelworthy-backdrop.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: sans-serif;}
 
 h1 {
-  background: #1e1b1e url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EVFMNbdN0BFr1aUM9lhOfSpHhavv5um2E4JF7vWr4-f4pWL8Cw") no-repeat;
+  background: #1e1b1e url("assignment-images/travelworthy-logo.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -75,11 +86,6 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
-#hotel3 {
-  margin-top: 1em; 
-  border-top: 1px solid #fff; 
-  padding-top: 1em;} 
-
 #rooms {
   font-size: 440%;
   color: #ffb87a;
@@ -108,7 +114,7 @@ p + h2 {
   padding: 0 50px 0 50px;
   line-height: 28px;
   text-align: left;
-  background-image: url("../images/check-cross.png");
+  background-image: url("assignment-images/check-cross.png");
   background-position: 120px 0;
   background-repeat: no-repeat;}
 
@@ -117,12 +123,13 @@ p + h2 {
 
 /* footer */
 
-#footer {
+footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
-  background-color: #adffda;}
+  width: 80%;
+  background-color: #1e1b1e;
+  padding: 10px;}
 
 #footer p {
   padding: 10px;
@@ -130,3 +137,6 @@ p + h2 {
 
 .data {
   padding: 10px;}
+
+.clear {
+  float: none;}
