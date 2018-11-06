@@ -6,7 +6,7 @@ function Hotel(name, rooms, booked) {
   this.checkAvailability = function() {
     return this.rooms - this.booked;
   };
-
+}
 
 
 // Create two hotel objects
