@@ -24,9 +24,11 @@ var details2 = parkHotel.name + ' rooms: ';
     details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
-  
-var details3 = sunsetHotel.name + ' rooms: ';
-    details3 += sunsetHotel.checkAvailability();
+
+var details3 = dezHotel.name
+
+var details3 = dezHotel.name + ' rooms: ';
+    details3 += dezHotel.checkAvailability();
 var elHotel3 = document.getElementById('hotel3');
 elHotel3.textContent = details3;
 /* 
