@@ -25,8 +25,8 @@ var details2 = parkHotel.name + ' rooms: ';
 var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
   
- var details3 = HiltonHotel.name + ' rooms: ';
-    details3 += HiltonHotel.checkAvailability();
+ var details3 = sunsetHotel.name + ' rooms: ';
+    details3 += sunsetHotel.checkAvailability();
 var elHotel3 = document.getElementById('hotel3');
 elHotel3.textContent = details3;
 
